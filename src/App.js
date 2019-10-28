@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 
 import Navigation from './components/navigation'
+import SetupTools from './components/setupTools';
+import CompositionMain from './components/compositionMain';
 
 class  App extends React.Component {
   constructor() {
@@ -20,6 +22,8 @@ class  App extends React.Component {
     return (
       <div className="App">
         <Navigation />
+        <SetupTools />
+        <CompositionMain />
       </div>
     )
   }
